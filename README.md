@@ -33,6 +33,17 @@ used to identify and locate devices on a network. (layer 3)
 
 
 ## MAC Addresses , Media Access Control
+layer 2
+
+* MAC adress is a unique identifier assigned to network interface controllers (NICs) of network devices. It is a hardware address that is permanently assigned by the manufacturer and is stored in the device's firmware or read-only memory (ROM).
+
+*  MAC addresses are used at the data link layer(layer 2) of the OSI model to ensure that data is delivered to the correct device within a local network.
+
+* 48 bits in length and are expressed as a sequence of six pairs of hexadecimal digits separated by colons or hyphens `00:1A:2B:3C:4D:5E` -> first three pairs of digits identify the manufacturer of the network interface card, while the last three pairs provide a unique identifier for the specific device.
+
+* Routers and switches use these MAC addresses to forward the data to the appropriate destination.
+
+* MAC addresses are specific to the local network and do not have global uniqueness like IP addresses. They are only relevant within the scope of the local network segment. When data needs to be transmitted beyond the local network, it is encapsulated in network packets that contain source and destination IP addresses.
 
 
-
+## TCP, UDP, # way Handshake
